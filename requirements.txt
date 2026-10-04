@@ -1,0 +1,41 @@
+# ZeroRadius — Requirements & Dependencies
+#
+# This is a Node.js/Next.js project. Dependencies are managed via npm.
+# This file documents all packages for reference.
+#
+# ──────────────────────────────────────────────────────────────────────
+# SETUP INSTRUCTIONS:
+#   1. Install Node.js >= 18.x (https://nodejs.org/)
+#   2. Run: npm install
+#   3. Copy .env.example to .env.local and add your Gemini API key
+#   4. Run: npm run dev
+# ──────────────────────────────────────────────────────────────────────
+#
+# RUNTIME DEPENDENCIES (package.json → dependencies):
+#
+#   next@16.3.8                    — React framework (App Router)
+#   react@19.2.8                   — UI library
+#   react-dom@19.2.8               — React DOM renderer
+#   @xyflow/react@^12.12.0         — React Flow graph library (v12)
+#   reactflow@^11.11.4             — React Flow graph library (v11 compat)
+#   @monaco-editor/react@^4.7.0    — VS Code editor component
+#   @evops/hcl-terraform-parser@^1 — Terraform HCL parser (AST)
+#   @google/generative-ai@^0.24.1  — Google Gemini AI SDK
+#   lucide-react@^1.50.0           — Icon library
+#
+# DEV DEPENDENCIES (package.json → devDependencies):
+#
+#   typescript@^5                  — TypeScript compiler
+#   @types/node@^20                — Node.js type definitions
+#   @types/react@^19               — React type definitions
+#   @types/react-dom@^19           — React DOM type definitions
+#   tailwindcss@^4                 — Utility-first CSS framework
+#   @tailwindcss/postcss@^4        — Tailwind CSS PostCSS plugin
+#   eslint@^9                      — JavaScript/TypeScript linter
+#   eslint-config-next@16.3.8      — Next.js ESLint config
+#   babel-plugin-react-compiler@1  — React 19 compiler plugin
+#
+# EXTERNAL SERVICES:
+#
+#   Google Gemini API               — Required only for AI Remediation
+#                                     Free key: https://aistudio.google.com/app/apikey
